@@ -1,0 +1,81 @@
+<HTML>
+<head>
+<title>calculadora</title>
+
+<style type="text/css">
+p{text-align:center;
+ font-size: 1.8em;
+ font:bold;
+ border-radius:.7em;}
+
+table {margin-top:4em
+  text-align:center;
+  background-color-green;
+  border-radius:.7em;}
+
+td input[type="button"]{font-size:1.8em;font:bold;}
+td input[type="text"]{font-size:1.5em;font:bold;text-align:rigth;}
+
+</style>
+
+</head>
+<body bgcolor="yellow">
+<br>
+<p>Mi primera calculadora</p>
+<form name="formulario">
+<table border="1" align="center">
+
+<tr>
+ <td colspan="4"><input type="text name="entrada"disable="disabled"></td>
+</tr>
+<tr>
+<td><input type="button"value="C"
+   onClick="entrada.value+=""></td></tr>
+<tr>
+<td><input type="buytton" value="7"
+  onClick="entrada.value+='7"'></td>
+
+<td><input type="button" value="8"
+   onClick="entrada.value+='8"'</td>
+<td><input type="button" value="9"
+   onClick="entrada.value+='9"'></td>
+<td><input type="button" value="/"
+  onClick="entrada.value+='/"'></td>
+</tr>
+
+<tr>
+ <td><input type>="button" value="4"
+  onClick="entrada.value+='4"'></td>
+<td><input type="button" value="5"
+  onClick="entrada.value+='5"'></td>
+<td><input type="button" value="*"
+  onClick="entrada.value+='*"'></td>
+</tr>
+
+<tr>
+ <td><input type="button" value="3"
+   onClick="entrada.value+='3"'></td> 
+<td><input type="button" value="2"
+  onClick="entrada.value+='2"'></td>
+<td><input type="button" value="1"
+  onClick="entrada.value+='1"'></td>
+<td><input type="button" value="_"
+  onClick="entrada.value+='_"'></td>
+</tr>
+
+<tr>
+  <td><input type="button" value="0"
+    onClick="entrada.value+='0"'></td>
+<td><input type="button" value"."
+  onClick="entrada.value+='."'></td>
+<td><input type="button" value="="
+  onClick="entrada.value=eval(entrada.value)"></td>
+
+<td><input type="button" value="+"
+ onClick="entrada.value+='+'"></td>
+</tr>
+
+</table>
+
+</body>
+<HTML>
